@@ -1,0 +1,96 @@
+body{
+    background-color: #f5d9df;
+    font-family: "Nunito",sans-serif;
+
+}
+
+.blurb h2{
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125;
+    line-height: 2;
+}
+
+.sec2{
+    margin-top: 80px;
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color:white ;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+#mainNavbar .navbar-brand{
+    color: #ea1c2c;
+
+}
+#headingGroup span{
+    color:#ea1c2c;
+
+}
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 3.5rem;
+
+}
+
+/* in order to shrink our text with variable ss we use media query */
+@media (max-width: 1250px){
+
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 2.8rem;
+    
+    }
+
+
+
+
+}
+.sec-3{
+    margin-top: 80px;
+}
+
+#mainNavbar.scrolled{
+    background-color: rgba(216, 169, 216, 0.893);
+}
+.imageclass{
+    border: 2px solid rgba(234, 121, 237, 0.934);
+    border-radius: 10%;
+    margin: 10px;
+
+}
+
+
+
+/* my adds */
+#headingGroup a{
+    text-decoration: none;
+}
+#headingGroup a :hover{
+    scale:1.1;
+    transition: 1.4s;
+    color:#ea1c2c
+    
+}
+.mc:hover{
+    scale:1.1;
+    transition: 1.4s;
+    color:#755defc7
+
+}
+
